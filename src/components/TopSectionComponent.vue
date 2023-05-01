@@ -8,9 +8,9 @@
           8 years of experience in web application development.</h4>
         <h2 class="mb-3 mt-4">Technology stack:</h2>
         <v-chip color="error lighten-5 red--text" class="ma-2">Laravel</v-chip>
-        <v-chip color="teal lighten-5 teal--text" class="ma-2">Symphony</v-chip>
         <v-chip color="green lighten-5 green--text" class="ma-2">Vue JS</v-chip>
         <v-chip color="primary lighten-5 green--text" class="ma-2">Vuetify</v-chip>
+        <v-chip color="purple lighten-5 purple--text" class="ma-2">Boostrap</v-chip>
         <v-chip color="secondary lighten-5 secondary--text" class="ma-2">Ionic Framework</v-chip>
         <v-chip color="blue lighten-5 blue--text" class="ma-2">Mysql</v-chip>
 

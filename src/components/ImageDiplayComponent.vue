@@ -16,6 +16,14 @@
  <v-img  src="@/assets/icon/js.svg"></v-img>
   </v-avatar>
 
+  <v-avatar  class="icon-container pa-4 bootstrap" size="90" color="white">
+ <v-img  src="@/assets/icon/bootstrap.svg"></v-img>
+  </v-avatar>
+
+  <v-avatar  class="icon-container pa-4 linux" size="90" color="white">
+ <v-icon color="orange darken-5" size="x-large" style="font-size: 60px">mdi-penguin</v-icon>
+  </v-avatar>
+
 
   <v-img src="@/assets/img/yusif.png" eager class="mt-6"></v-img>
 </div>
@@ -65,6 +73,15 @@ export default {
 .laravel{
   top: 20rem;
   left: 1rem;
+}
+.bootstrap{
+  top: 1rem;
+  right: 5rem;
+}
+
+.linux{
+  top: 26rem;
+  right: 6rem;
 }
 .vue{
   top: 10rem;
