@@ -13,7 +13,7 @@
 
 
   <v-avatar  class="icon-container pa-4 docker" size="90" color="white">
- <v-img  src="@/assets/icon/docker.svg"></v-img>
+ <v-img  src="@/assets/icon/js.svg"></v-img>
   </v-avatar>
 
 

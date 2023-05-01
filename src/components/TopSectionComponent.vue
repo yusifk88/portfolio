@@ -17,24 +17,21 @@
         <v-divider></v-divider>
 
 
-        <h2 class="mt-4">Socials:</h2>
-        <v-card variant="outlined" rounded style="border-radius: 15px">
-          <v-card-text>
-            <v-btn href="https://www.linkedin.com/in/yusif-katulie-00a90414b/" target="_blank" color="blue" class="ma-2" variant="tonal"><v-icon>mdi-linkedin</v-icon>Linkedin <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
-            <v-btn href="https://twitter.com/@ykatulie" target="_blank" color="blue" class="ma-2" variant="tonal"><v-icon>mdi-twitter</v-icon>Twitter <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
-            <v-btn href="https://github.com/yusifk88" target="_blank" color="black" class="ma-2" variant="tonal"><v-icon>mdi-github</v-icon>Github <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
-          </v-card-text>
-        </v-card>
+        <h2>Socials:</h2>
+
+            <v-btn href="https://www.linkedin.com/in/yusif-katulie-00a90414b/" target="_blank" color="primary" class="ma-2" variant="text"><v-icon>mdi-linkedin</v-icon>Linkedin <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
+            <v-btn href="https://twitter.com/@ykatulie" target="_blank" color="blue" class="ma-2" variant="text"><v-icon>mdi-twitter</v-icon>Twitter <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
+            <v-btn href="https://github.com/yusifk88" target="_blank" color="black" class="ma-2" variant="text"><v-icon>mdi-github</v-icon>Github <sup><v-icon>mdi-arrow-right-top</v-icon></sup></v-btn>
+
 
 
 
         <h2 class="mt-4">Contact:</h2>
 
-        <v-card variant="outlined" rounded style="border-radius: 15px">
-          <v-card-text>
-            <v-list>
 
-              <v-list-item class="border-b">
+            <v-list class="mt-4">
+
+              <v-list-item href="mailto:ykatulie@gmail.com" class="border-b">
                 <template v-slot:prepend>
                   <v-icon color="blue">mdi-email-check-outline</v-icon>
                 </template>
@@ -45,7 +42,7 @@
                 <v-list-item-subtitle>Email</v-list-item-subtitle>
               </v-list-item>
 
-              <v-list-item class="border-b">
+              <v-list-item href="tel:233503712979" class="border-b">
                 <template v-slot:prepend>
                   <v-icon>mdi-phone</v-icon>
                 </template>
@@ -77,8 +74,7 @@
 
             </v-list>
 
-          </v-card-text>
-        </v-card>
+
 
       </v-sheet>
 
@@ -87,7 +83,7 @@
 
     <v-col cols="12" sm="6" >
 
-      <v-card color="#ECC9EE" flat height="86vh" style="border-radius: 15px">
+      <v-card color="#ECC9EE" flat mx-height="86vh" style="border-radius: 15px">
         <image-diplay-component></image-diplay-component>
 
       </v-card>
