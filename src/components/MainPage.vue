@@ -9,11 +9,11 @@
           <h2>Yusif</h2>
         </v-badge>
       </v-app-bar-title>
-      <v-btn>Home</v-btn>
-      <v-btn @click="$vuetify.goTo({target:'#exp-card'})">Experience</v-btn>
-      <v-btn>Projects</v-btn>
-      <v-btn>Services</v-btn>
-      <v-spacer></v-spacer>
+      <v-btn class="d-none d-md-block">Home</v-btn>
+      <v-btn class="d-none d-md-block" @click="$vuetify.goTo({target:'#exp-card'})">Experience</v-btn>
+      <v-btn class="d-none d-md-block">Projects</v-btn>
+      <v-btn class="d-none d-md-block">Services</v-btn>
+      <v-spacer class="d-sm-none d-md-block"></v-spacer>
       <v-btn href="mailto:ykatulie@gmail.com" variant="outlined">Let's Chat</v-btn>
 
       <v-spacer></v-spacer>
