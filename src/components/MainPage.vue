@@ -2,8 +2,8 @@
   <v-container fluid>
 
     <v-app-bar rounded floating scroll-behavior="hide" class="border-b" flat>
-      <v-spacer></v-spacer>
-      <v-app-bar-title class="ma-5 ml-5">
+      <v-spacer class="d-none d-md-block"></v-spacer>
+      <v-app-bar-title>
         <v-badge color="purple" dot location="bottom end" offset-x="-8" offset-y="6">
 
           <h2>Yusif</h2>
