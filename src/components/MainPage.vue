@@ -71,6 +71,8 @@
         :icon="icon.name"
         class="mx-4"
         variant="text"
+        :href="icon.url"
+        target="_blank"
       ></v-btn>
     </div>
 
@@ -106,15 +108,15 @@ export default {
       icons: [
         {
           name: 'mdi-twitter',
-          url: ""
+          url: "https://twitter.com/@ykatulie"
         },
         {
           name: 'mdi-linkedin',
-          url: ""
+          url: "https://www.linkedin.com/in/yusif-katulie-00a90414b/"
         },
         {
           name: 'mdi-github',
-          url: ""
+          url: "https://github.com/yusifk88"
         }
       ],
       experiencList: [
