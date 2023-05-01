@@ -41,26 +41,6 @@
                 </v-list-item-title>
                 <v-list-item-subtitle>Email</v-list-item-subtitle>
               </v-list-item>
-
-              <v-list-item href="tel:233503712979" class="border-b">
-                <template v-slot:prepend>
-                  <v-icon>mdi-phone</v-icon>
-                </template>
-                <v-list-item-title class="font-weight-bold">
-                  +233503712979
-                </v-list-item-title>
-                <v-list-item-subtitle>Phone Number</v-list-item-subtitle>
-              </v-list-item>
-
-              <v-list-item>
-                <template v-slot:prepend>
-                  <v-icon color="green">mdi-whatsapp</v-icon>
-                </template>
-                <v-list-item-title class="font-weight-bold">
-                  +233503712979
-                </v-list-item-title>
-                <v-list-item-subtitle>WhatsApp</v-list-item-subtitle>
-              </v-list-item>
               <v-list-item>
                 <template v-slot:prepend>
                   <v-icon color="red">mdi-map-marker-multiple-outline</v-icon>

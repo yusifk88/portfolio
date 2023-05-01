@@ -2,9 +2,9 @@
   <v-row class="bg-purple-lighten-5">
     <v-col cols="12" class="text-center">
       <h2>Projects</h2>
-      <p class="text-disabled">
-        This section is made of a collection of projects i worked on together with a team or solo.
-      </p>
+      <h2 class="text-disabled font-weight-light">
+        This section is made of a collection of projects i worked on together with teams or solo.
+      </h2>
     </v-col>
 
     <v-col cols="12" sm="6" v-for="project in projects" :key="project.src">
